@@ -29,8 +29,8 @@ wifi_name = "SDBNSM_DT Room"
 password = "sdbnsmss"
 microIoT.microIoT_WIFI(wifi_name, password)
 microIoT.microIoT_MQTT(
-"vkW338gnR",
-"DkZq38gnRz",
+"by_x-kR7g",
+"by_bazg7Rz",
 "",
 microIoT.SERVERS.English
 )
