@@ -1,6 +1,7 @@
 microIoT.microIoT_MQTT_Event(microIoT.TOPIC.topic_0, function (message) {
     microIoT.microIoT_clear()
-    microIoT.microIoT_showUserText(0, "MQTT Received " + message)
+    microIoT.microIoT_showUserText(0, "Message Received")
+    microIoT.microIoT_showUserText(1, message)
     if (message == "smile") {
         basic.showIcon(IconNames.Happy)
         microIoT.microIoT_showUserText(2, "Smile")
@@ -29,9 +30,9 @@ wifi_name = "SDBNSM_DT Room"
 password = "sdbnsmss"
 microIoT.microIoT_WIFI(wifi_name, password)
 microIoT.microIoT_MQTT(
-"by_x-kR7g",
-"by_bazg7Rz",
-"",
+"m8P5PcZnR",
+"i8PcP5W7Rz",
+"WFM1_KWnR",
 microIoT.SERVERS.English
 )
 basic.forever(function () {
